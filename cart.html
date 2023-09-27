@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/ba8efa8e44.js" crossorigin="anonymous"></script>
+    <title>Cart - SuperSeeds</title>
+
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="navbar">
+        <div class="top-header">
+            <a href="signup.html">SIGN UP</a>
+            <a href="login.html">LOG IN</a>
+        </div>
+        <div class="mid-header">
+            <div class="logo">
+                <img class='logo' src="images/logo.png" alt="Logo">
+            </div>
+            <div class="middle-header">
+                <input type="text" placeholder="SEARCH...">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="right-header">
+                <div class="profile">
+                    <a href="profile.html"><i class="fa-regular fa-user fa-2x"></i></a>
+                    <a href="profile.html">
+                        <h3>PROFILE</h3>
+                    </a>
+
+                </div>
+                <div class="cart">
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+                    <a href="cart.html">
+                        <h3>CART</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <a href="index.html">HOME</a>&emsp;
+            <a href="product.html">PRODUCT</a>&emsp;
+            <a href="about.html">ABOUT</a>&emsp;
+            <a href="contact.html">CONTACT</a>&emsp;
+            <a href="faq.html">FAQS</a>
+        </div>
+    </header>
+
+    <!-- mid section  -->
+    <div class="page-body">
+        <!-- banner  -->
+        <div class="slideshow-banner">
+            <div class="product-banner">
+                <h1>MY CART</h1>
+            </div>
+        </div>
+
+        <!-- cart heading -->
+        <div id="cart-heading" class="cart-body">
+            
+            <div id="cart-product-heading" class="cart-product">
+                <div class="cart-image">
+                    IMAGE
+                </div>
+                <div class="cart-product-name">
+                    ITEM
+                </div>
+                <div class="cart-price">
+                    PRICE
+                </div>
+                <div class="cart-quantity">
+                    QUANTITY
+                </div>
+                <div class="cart-action">
+                    ACTION
+                </div>
+            </div>
+        </div>
+
+        <!-- cart item 1 -->
+        <div class="cart-body">
+            <div class="cart-checkbox">
+                <input type="checkbox" name="cart-item" id="cart-item">
+                <label for="cart-item"></label>
+            </div>
+            <div class="cart-product">
+                <div class="cart-image">
+                    <img src="images/products/ashoka tree.webp" alt="ashoka tree">
+                </div>
+                <div class="cart-product-name">
+                    Ashoka Tree
+                </div>
+                <div class="cart-price">
+                    <span class="price">$2.99</span>
+                </div>
+                <div class="cart-quantity">
+                    <input type="number" value="2">
+                </div>
+                <div class="cart-action">
+                    <i class="fa fa-trash"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- cart item 2 -->
+        <div class="cart-body">
+            <div class="cart-checkbox">
+                <input type="checkbox" name="cart-item" id="cart-item">
+                <label for="cart-item"></label>
+            </div>
+            <div class="cart-product">
+                <div class="cart-image">
+                    <img src="images/products/rhoeo plant.jpg" alt="Rhoeo Plant">
+                </div>
+                <div class="cart-product-name">
+                    Rhoeo Plant
+                </div>
+                <div class="cart-price">
+                    <span class="price">$2.99</span>
+                </div>
+                <div class="cart-quantity">
+                    <input type="number" value="2">
+                </div>
+                <div class="cart-action">
+                    <i class="fa fa-trash"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- cart item 3 -->
+        <div class="cart-body">
+            <div class="cart-checkbox">
+                <input type="checkbox" name="cart-item" id="cart-item">
+                <label for="cart-item"></label>
+            </div>
+            <div class="cart-product">
+                <div class="cart-image">
+                    <img src="images/products/Rose Red.jpg" alt="Rose Red">
+                </div>
+                <div class="cart-product-name">
+                    Rose Red
+                </div>
+                <div class="cart-price">
+                    <span class="price">$4.99</span>
+                </div>
+                <div class="cart-quantity">
+                    <input type="number" value="2">
+                </div>
+                <div class="cart-action">
+                    <i class="fa fa-trash"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- cart item 4 -->
+        <div class="cart-body">
+            <div class="cart-checkbox">
+                <input type="checkbox" name="cart-item" id="cart-item" checked>
+                <label for="cart-item"></label>
+            </div>
+            <div class="cart-product">
+                <div class="cart-image">
+                    <img src="images/products/Peace lily.webp" alt="peace lily">
+                </div>
+                <div class="cart-product-name">
+                    Peace Lily
+                </div>
+                <div class="cart-price">
+                    <span class="price">$3.99</span>
+                </div>
+                <div class="cart-quantity">
+                    <input type="number" value="1">
+                </div>
+                <div class="cart-action">
+                    <i class="fa fa-trash"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-billing">
+            GRAND TOTAL: &emsp;&emsp;$3.99<br><br>
+            <button class="check-out-btn">PROCEED TO CHECKOUT</button>
+        </div>
+
+    </div> 
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="footer-logo">
+                <img class='logo-footer' src="images/logo.png" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <h3><u>USEFUL LINKS</u></h3>
+                <div class="useful-links">
+                    <b><a href="index.html">HOME</a></b>
+                    <b><a href="product.html">PRODUCT</a></b>
+                    <b><a href="about.html">ABOUT</a></b>
+                    <b><a href="contact.html">CONTACT</a></b>
+                    <b><a href="faq.html">FAQS</a></b>
+                </div>
+            </div>
+            <div class="footer-payment">
+                <h3><u>WE ACCEPT</u></h3>
+                <div class="payments">
+                    <i class="fa-brands fa-cc-visa fa-2xl"></i>
+                    <i class="fa-brands fa-cc-stripe fa-2xl"></i>
+                    <i class="fa-brands fa-apple-pay fa-2xl"></i>
+                </div>
+            </div>
+            <div class="footer-about">
+                <h3><u>ABOUT US</u></h3>
+                <p align='justify'>Super Seeds was established to provide our customers with the most accurate gardening
+                    information possible.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-2xl"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+                    </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <span><b>&copy; COPYRIGHT SUPER SEEDS</b></span>
+            <span><b>ALL RIGHTS RESERVED</b></span>
+        </div>
+    </footer>
+</body>
+
+</html>
